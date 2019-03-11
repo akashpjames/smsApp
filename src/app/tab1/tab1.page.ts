@@ -40,7 +40,7 @@ export class Tab1Page {
 
     sendMessage(){
         if(SMS) {
-            SMS.sendSMS("+918089817002", "Test Message", () => {
+            SMS.sendSMS("Add your mobile number", "Test Message", () => {
                 console.log('Message sent successfully');
             }, (error) => {
                 console.error(error);
