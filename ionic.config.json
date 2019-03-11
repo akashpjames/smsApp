@@ -1,5 +1,7 @@
 {
   "name": "smsApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
