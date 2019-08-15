@@ -25,6 +25,8 @@ export class Tab1Page {
                         (err) => {
                             console.error(err);
                         });
+                } else {
+                    this.sendMessage();
                 }
             },
             err => {
